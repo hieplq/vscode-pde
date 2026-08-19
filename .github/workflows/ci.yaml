@@ -8,7 +8,7 @@ on:
   pull_request:
     branches:
       - master
-
+  workflow_dispatch: # to manual run action
 permissions:
   contents: write # for can create release
   
